@@ -19,6 +19,7 @@
 	font-size: 1.25em;
 	z-index: 1;
 	/*background-image: url('./volcano1.jpg');*/
+	opacity: 0.75;
 }
 #bg-image{
 	z-index: 0;

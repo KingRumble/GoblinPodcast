@@ -1,0 +1,32 @@
+#post-container{
+	display: flex;
+	border: 1px dashed red;
+	width: 100%;
+	flex-direction: column;
+}
+#top-post-section{
+	display: inline-flex;
+	width: 75%;
+	border: 1px dashed purple;
+	justify-content: space-between;
+	height: 33%;
+
+}
+#description-box{
+	width: 100%;
+	height: 100%;
+	border: 1px dashed blue;
+}
+#top-post-section img{
+	height: 100%;
+	width: 50%;
+}
+#post-heading{
+	height: 100%;
+	width:100%;
+	text-align: center;
+	border: 1px solid green;
+}
+#date-box{
+	border: 1px dashed red;
+}
