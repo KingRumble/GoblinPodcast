@@ -1,0 +1,27 @@
+#title-container{
+	display: flex;
+	align-items: center;
+	height: 600px;
+	/*width: 600px;*/
+	justify-content: center;
+	z-index: 1;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: fill;
+}
+#title-item{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background-color: darkgray;
+	text-align: center;
+	justify-content: center;
+	font-size: 1.25em;
+	z-index: 1;
+	/*background-image: url('./volcano1.jpg');*/
+}
+#bg-image{
+	z-index: 0;
+	margin: 0 auto;
+	text-align: center;
+}

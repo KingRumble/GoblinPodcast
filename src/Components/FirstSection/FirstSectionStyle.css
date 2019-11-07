@@ -1,0 +1,12 @@
+#section-one{
+	background-image: url("./volcano3.jpeg");
+	background-repeat: no-repeat;
+	height: 100%;
+	background-size: cover;
+	width: 100%;
+
+}
+#section-container{
+	margin: 0 auto;
+	width: 100%;
+	}

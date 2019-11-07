@@ -1,0 +1,12 @@
+#display-items{
+	display: flex;
+	background-color: gray;
+	margin:0 auto;
+	width: 100%;
+
+}
+#display-container{
+	display: inline-flex;
+	justify-content: center;
+	width: 100%;
+}
