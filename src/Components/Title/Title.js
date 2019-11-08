@@ -1,8 +1,9 @@
 import React from 'react';
 //import Navigation from '../Navigation/Navigation';
 import './titleStyle.css'
+	
+const Title = (props) =>{
 
-const Title = () =>{
 	return(
 		<>
 			<div id="title-container">

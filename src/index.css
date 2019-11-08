@@ -1,0 +1,33 @@
+
+
+#title{
+	color: yellow;
+	font-size: 3em;
+	text-align: center;
+
+}
+#navbar{
+	display: inline-block;
+	background-color: blue;
+	height: 5%;
+	padding:0;
+	margin-bottom: 0px;
+	border:1px solid green;
+	z-index: 2;
+	list-style: none;
+	width: 100%;
+}
+#navbar-container{
+	display: flex;
+	flex-direction: column;
+	background-color: blue;
+}
+#menu-options{
+	display: flex;
+	justify-content: space-around;
+	background-color: purple;
+	opacity: 0.75;
+}
+#website-title{
+	opacity: 0.90;
+}

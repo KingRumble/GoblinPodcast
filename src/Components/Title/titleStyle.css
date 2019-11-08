@@ -26,3 +26,7 @@
 	margin: 0 auto;
 	text-align: center;
 }
+.raised-bar{
+	position: relative;
+	bottom: 100px;
+}

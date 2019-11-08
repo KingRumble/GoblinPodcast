@@ -1,19 +1,23 @@
 import React from 'react';
 import './navigationStyle.css';
-class Navigation extends React.Component{
-	render(){
+const Navigation = (props) =>{
+	
+
 		return(
 			<div>
-				<nav id="navbar">
-					<p id="title"> Welcome to the Goblin Podcast</p>
-					<ul>
-						<li>Home</li>
-						<li>Podcast</li>
-						<li>News</li>
-					</ul>
+				<nav id="navbar-container">
+					<div id="website-title">
+						<p id="title">Goblin Den</p>
+					</div>
+					<div id="menu-options">
+						<p>Display News</p>
+						<p>|</p>
+						<p>Unassigned</p>
+						<p>|</p>
+						<p>Unassigned</p>
+					</div>
 				</nav>
 			</div>
 		);
-	}
 }
 export default Navigation;
