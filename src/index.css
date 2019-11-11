@@ -1,7 +1,7 @@
 
 
 #title{
-	color: yellow;
+	color: white;
 	font-size: 3em;
 	text-align: center;
 
@@ -13,21 +13,36 @@
 	padding:0;
 	margin-bottom: 0px;
 	border:1px solid green;
-	z-index: 2;
+	z-index: 1;
 	list-style: none;
 	width: 100%;
 }
 #navbar-container{
 	display: flex;
 	flex-direction: column;
-	background-color: blue;
+	background-color: dimgray;
 }
 #menu-options{
 	display: flex;
 	justify-content: space-around;
-	background-color: purple;
+	background-color: slategray;
 	opacity: 0.75;
+	color: gainsboro;
 }
 #website-title{
-	opacity: 0.90;
+	opacity: 0.70;
+	display: inline-flex;
+	align-items: flex-start;
+	border: 1px dashed green;
+}
+#website-title-1{
+	width: 33%;
+	background-color: darkslategray;
+}
+#website-title-2{
+	width: 67%;
+	background-color: silver;
+}
+#title-2{
+	text-align: center;
 }

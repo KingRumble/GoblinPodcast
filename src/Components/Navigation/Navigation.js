@@ -7,7 +7,12 @@ const Navigation = (props) =>{
 			<div>
 				<nav id="navbar-container">
 					<div id="website-title">
-						<p id="title">Goblin Den</p>
+						<div id="website-title-1">
+							<h1 id="title">Goblin Den</h1>
+						</div>
+						<div>
+							<h3 id="title-2">"Yeah! We're the Goblins"</h3>
+						</div>
 					</div>
 					<div id="menu-options">
 						<p>Display News</p>
