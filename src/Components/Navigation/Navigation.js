@@ -1,5 +1,6 @@
 import React from 'react';
 import './navigationStyle.css';
+import {Link} from 'react-router-dom';
 const Navigation = (props) =>{
 	
 
@@ -15,11 +16,11 @@ const Navigation = (props) =>{
 						</div>
 					</div>
 					<div id="menu-options">
-						<p>Display News</p>
+						<p><Link to='/'>Home</Link></p>
 						<p>|</p>
-						<p>Unassigned</p>
+						<p><Link to='/about-us'>About Us</Link></p>
 						<p>|</p>
-						<p>Unassigned</p>
+						<p><Link to='/contact-us'>Contact Us</Link></p>
 					</div>
 				</nav>
 			</div>
