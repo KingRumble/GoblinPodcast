@@ -1,6 +1,7 @@
 import React from 'react';
 import SecondSection from '../SecondSection/SecondSection';
 import FirstSection from '../FirstSection/FirstSection';
+import About from '../About/About';
 import "./Display.css";
 import {Route} from 'react-router-dom';
 
@@ -41,13 +42,11 @@ class Display extends React.Component{
 
 	render(){
 		return(
-			<div id="display-container">
-				<div id="display-items">
-					<Route path="/" exact render={() => <FirstSection />} />
-					<Route path="/about-us" exact render={() => <h1>About us page checking in</h1>} />
-					<Route path="/contact-us" exact render={() =><h1> Contact page checking in</h1> }/>
-				</div>
-			</div>
+			<>
+				<Route path="/" exact render={() => <FirstSection />} />
+				<Route path="/about-us" exact render={() => <About />} />
+				<Route path="/contact-us" exact render={() =><h1> Contact page checking in</h1> }/>
+			</>
 		); 
 	}
 }
