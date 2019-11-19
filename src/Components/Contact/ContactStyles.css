@@ -1,0 +1,14 @@
+#contact-content{
+	background-color: beige;
+	border: 1px dashed blue;
+	text-align: center;
+	height: 600px;
+	
+}
+#headline{
+	background-color: gray;
+	margin:0 auto;
+	padding: 0;
+	border: 0;
+	color: white;
+}

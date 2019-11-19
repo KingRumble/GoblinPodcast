@@ -3,8 +3,9 @@
 	flex-direction: column;
 	border: 1px dashed red;
 	justify-content: space-around;
-	background-image: url("./volcano2.jpg");
+	background-image: url("./volcano5.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 	height: 600px;
 	width: 100%;
 }
