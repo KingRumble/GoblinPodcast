@@ -1,7 +1,7 @@
 #post-container{
 	display: flex;
 	border: 1px dashed red;
-	width: 100%;
+	width: 33%;
 	flex-direction: column;
 }
 #top-post-section{

@@ -48,5 +48,10 @@
 	flex-direction: column;
 	border: 2px dashed orange;
 	width: 100%;
-	height:	45%;
+	height:	33%;
+}
+#episodes{
+	display: inline-flex;
+	background-color: gray;
+	height: 100%;
 }
