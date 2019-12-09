@@ -44,6 +44,7 @@ class Display extends React.Component{
 	render(){
 		return(
 			<>
+				<Route path="/GoblinWebsite/" exact render={() => <FirstSection />} />
 				<Route path="/" exact render={() => <FirstSection />} />
 				<Route path="/about-us" exact render={() => <About />} />
 				<Route path="/contact-us" exact render={() =><Contact />}/>
