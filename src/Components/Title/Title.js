@@ -13,7 +13,7 @@ const Title = (props) =>{
 					<div id="title-item">
 						<h3>The Goblin Podcast: </h3>
 						<br/>
-						<p>Home to all things filthy, vile and just plain gross</p>
+						<p>A case study of goblins and apes in their natural habitat</p>
 					</div>
 					<div id="episode-list">
 						<p id="episode-list-title">Episodes:</p>
